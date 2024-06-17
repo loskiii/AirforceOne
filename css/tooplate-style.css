@@ -1,3 +1,22 @@
+/* Card animation */
+.carrd {
+    background: #dce7e7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+	height: 300px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+	
+}
+
+.carrd:hover {
+	background-color: #ffe165;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 
 * {
     margin: 0;
